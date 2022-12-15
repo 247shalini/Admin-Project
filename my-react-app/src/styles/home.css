@@ -1,0 +1,86 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: #3f4254;
+  border-color: #3f4254;
+  font-weight: 500;
+  padding: 12px 12px;
+}
+
+.home-title {
+  font-size: 25px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.badge {
+  cursor: pointer;
+}
+
+input[name="searchName"] {
+  height: 35px;
+}
+
+.role,
+.page-link {
+  cursor: pointer;
+}
+
+/* ///////////////// view styling /////////////////// */
+.mandatory {
+  color: red;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.admin-form-wrapper1 input[type="text"] {
+  text-transform: capitalize;
+  background-color: #ebe8e88a;
+  height: 37px;
+  padding: 5px;
+  font-size: 14px;
+  color: #5e5959;
+}
+
+#user-role-dropdown-menu,
+#user-search,
+#user-status {
+  width: 100%;
+  text-transform: capitalize;
+  background-color: #ebe8e88a;
+  height: 37px;
+  padding: 6px;
+  font-size: 14px;
+  color: #5e5959;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: start;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+/* /////////////////// add styling /////////////////////*/
+
+.admin-custom-form #role {
+  padding: 1px;
+  height: 36px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
